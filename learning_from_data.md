@@ -10,10 +10,15 @@ There is the input $\bold x$, the unknown target function $f: \mathcal{X}\to\mat
 
 ## Types of learning
 
-- Supervised Learning: When the training data contains explicit examples of what the correct output should be for given inputs, then we are within the supervised learning setting that we have covered so far. 
-  - active learning: 
-  - online learning: 
+- [Supervised Learning](https://en.wikipedia.org/wiki/Supervised_learning): When the training data contains explicit examples of what the correct output should be for given inputs, then we are within the supervised learning setting that we have covered so far. 
+
+  - [active learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)): the data set is acquired through queries that we make. The learning algorithm is able to interactively query the user (or some other information source) to obtain the desired outputs at new data points.
+  - [online learning](https://en.wikipedia.org/wiki/Online_machine_learning): the data set is given to the algorithm one example at a time. This happens when we have streaming data that the algorithm has to process 'on the run'. 
+
 - Reinforcement Learning
+
+  the training example does not contain the target output, but instead contains some possible output together with a measure of how good that output is. The reinforcement learning algorithm is left with the task of sorting out the information coming from diﬀerent examples to find the best line of play. 
+
 - Unsupervised Learning
 
 # Training versus Testing
